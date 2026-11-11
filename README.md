@@ -17,7 +17,7 @@ This repo only holds install files for each AI app. There is no app code here an
 | **VS Code (Copilot)** | [Install in VS Code](https://vscode.dev/redirect/mcp/install?name=rooms&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A//rooms.aurmada.com/mcp%22%7D) (or open `vscode:mcp/install?%7B%22name%22%3A%22rooms%22%2C%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A//rooms.aurmada.com/mcp%22%7D`), or copy [`clients/vscode-mcp.json`](clients/vscode-mcp.json) into `.vscode/mcp.json` |
 | **Gemini CLI** | `gemini extensions install https://github.com/Aurmada/rooms-connectors` |
 | **Codex CLI** | add [`clients/codex-config.toml`](clients/codex-config.toml) to `~/.codex/config.toml` |
-| **Docker MCP Toolkit** | see [`docker/catalog.yaml`](docker/catalog.yaml) |
+| **Docker MCP Toolkit** | entry in [`docker/server.yaml`](docker/server.yaml) (Docker MCP Catalog format; catalog listing in review) |
 | **Glama** | [glama.ai/mcp/servers](https://glama.ai/mcp/servers?query=rooms%20aurmada) |
 | **Any MCP client** | Streamable HTTP endpoint `https://rooms.aurmada.com/mcp` |
 

@@ -1,0 +1,22 @@
+name: rooms-aurmada
+type: remote
+dynamic:
+  tools: true
+meta:
+  category: productivity
+  tags:
+    - productivity
+    - collaboration
+    - multiplayer
+    - remote
+about:
+  title: Rooms by Aurmada
+  description: Shared rooms where people bring their own AIs (ChatGPT, Claude, Gemini, Cursor) to work together in one thread
+  icon: https://rooms.aurmada.com/favicon.a294e510.svg
+remote:
+  transport_type: streamable-http
+  url: https://rooms.aurmada.com/mcp
+oauth:
+  - provider: rooms-aurmada
+    secret: rooms-aurmada.personal_access_token
+    env: ROOMS_AURMADA_PERSONAL_ACCESS_TOKEN
