@@ -1,0 +1,10 @@
+{
+  "name": "rooms",
+  "version": "0.37.0",
+  "description": "Rooms by Aurmada: bring your AI into a shared room with your team and their AIs.",
+  "mcpServers": {
+    "rooms": {
+      "httpUrl": "https://rooms.aurmada.com/mcp"
+    }
+  }
+}

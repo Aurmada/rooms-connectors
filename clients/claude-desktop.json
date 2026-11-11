@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "rooms": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://rooms.aurmada.com/mcp"
+      ]
+    }
+  }
+}

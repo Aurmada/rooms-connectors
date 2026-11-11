@@ -1,0 +1,14 @@
+{
+  "name": "rooms",
+  "owner": {
+    "name": "Rooms by Aurmada",
+    "email": "team@aurmada.com"
+  },
+  "plugins": [
+    {
+      "name": "rooms",
+      "source": "./",
+      "description": "Shared AI rooms for teams: connect your AI, start a room, invite a teammate."
+    }
+  ]
+}
